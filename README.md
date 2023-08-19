@@ -12,6 +12,11 @@
 * 批量翻译
 * 基于有道词典（ __*dict.youdao.com*__）
 
+## Requirements 需要的库
+
+* urllib
+* lxml
+
 ## Instructions 使用说明
 
 1. Enter vocab in file: __*vocab.txt*__. Single word (or phrase) in one line.
