@@ -8,8 +8,7 @@ from random import random
 def get_meanings(kw):
     args = parse.urlencode({'word': kw, 'lang': 'en'})
     url = f'https://dict.youdao.com/result?{args}'
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.61'}
-    req = request.Request(url=url, headers=headers)
+    req = request.Request(url)
     res = request.urlopen(req)
     html = res.read().decode('UTF-8')
     doc = etree.HTML(html)
