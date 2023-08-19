@@ -3,7 +3,7 @@
 ## Description 介绍
 
 * English words to Chinese meanings.
-* Including different parts of speech, meanings, and forms.
+* Including different parts of speech, meanings and forms.
 * Batch translating.
 * Based on __*dict.youdao.com*__.
 ---
