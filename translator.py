@@ -22,7 +22,7 @@ def get_meanings(kw):
     Xpath = doc.xpath('/html/body/div/div/div/div/div[1]/div/div/section/div[2]/div[2]/div/div/ul//li//span/text()')
     class_list = doc.xpath('/html/body/div/div/div/div/div[1]/div/div/section/div[2]/div[2]/div/div/ul//li//span/@class')
     class_list = remove_all("wfs-splice", class_list)
-    meanings = f'\n--------------------\n{kw}\n'
+    meanings = f'--------------------\n{kw}\n'
     flag = 0
     for i in range(len(Xpath)):
         meanings += Xpath[i]
