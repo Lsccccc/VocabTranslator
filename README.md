@@ -32,7 +32,7 @@
 ## Exceptions 问题处理
 
 * If entering words that do not exist, its meaning will be empty.
-* Sometimes the lines in __*result.txt*__ will be incorrectly divided.
+* BUG: Sometimes, a few parts of __*result.txt*__ will be divided into lines incorrectly.
 ---
 * 如果输入不存在的词，该词的解释将为空。
-* __*result.txt*__ 里的解释有时会被错误分行，请手动调整。
+* BUG：__*result.txt*__ 里的单词解释有时会被错误分行（仅限于这个单词的解释，其他单词会正常），请手动调整。
